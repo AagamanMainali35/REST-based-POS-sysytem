@@ -1,6 +1,6 @@
 from django.urls import path
 
-from . import views
+from Tables import views
 
 urlpatterns = [
     path("all/", views.get_all_tables, name="get_all_tables"),  # GET all tables

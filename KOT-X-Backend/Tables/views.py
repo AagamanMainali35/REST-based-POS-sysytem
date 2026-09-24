@@ -8,7 +8,7 @@ from rest_framework.decorators import (
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
-from decorator.role import role_required
+from decorators.role import role_required
 
 from .models import DiningTable
 from .serializer import TableSerializer
